@@ -12,6 +12,7 @@ before_install:
   - cd capstone-3.0.4/
   - ./make.sh
   - sudo ./make.sh install
+  - cd ../
 
 # command to install dependencies
 install: 
