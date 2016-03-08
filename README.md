@@ -1,4 +1,4 @@
-# ARM Roper
+# ARM Roper [![Build Status](https://travis-ci.org/0xspx/armroper.svg?branch=master)](https://travis-ci.org/0xspx/armroper)
 
 Tool for searching the rop gadgets for ARM. Basically, refactorisation of MyROP, with futher plans for features like converting to python string, blah blah. 
 
