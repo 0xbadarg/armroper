@@ -1,11 +1,13 @@
 language: python
+sudo: true
+
 python:
   - "3.4"
   - "3.5"
 
 # before install
 before_install:
-  - apt-get install libcapstone-dev
+  - sudo apt-get install libcapstone-dev python-capstone
 
 # command to install dependencies
 install: 
