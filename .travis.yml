@@ -1,16 +1,15 @@
 language: python
 python:
-  - "3.2"
-  - "3.3"
   - "3.4"
   - "3.5"
-  - "3.5-dev" # 3.5 development branch
 
 virtualenv:
   system_site_packages: true
 
 # command to install dependencies
-install: "pip3 install -r requirements.txt"
+install: 
+  - pip3 install -r requirements.txt --use-mirrors
 
 # run tests
-script: ./run_tests.py
+script: 
+  - python3 run_tests.py
