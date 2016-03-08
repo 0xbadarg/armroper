@@ -2,12 +2,16 @@ language: python
 sudo: true
 
 python:
+  - "3.3"
   - "3.4"
-  - "3.5"
 
-# before install
+# before_install
 before_install:
-  - sudo apt-get install libcapstone-dev python-capstone
+  - wget https://github.com/aquynh/capstone/archive/3.0.4.tar.gz
+  - tar xf 3.0.4.tar.gz
+  - cd capstone-3.0.4/
+  - ./make.sh
+  - sudo ./make.sh install
 
 # command to install dependencies
 install: 
