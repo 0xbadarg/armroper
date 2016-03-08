@@ -1,11 +1,12 @@
 # ARM Roper [![Build Status](https://travis-ci.org/0xspx/armroper.svg?branch=master)](https://travis-ci.org/0xspx/armroper)
 
-Tool for searching the rop gadgets for ARM. Basically, refactorisation of MyROP, with futher plans for features like converting to python string, blah blah. 
+Tool for searching the rop gadgets for ARM. Basically, refactorisation of the MyROP project, with further plans for features like converting to python string, blah blah. 
 
 
 ## Installation
 
 For deps just run: sudo pip install -r requirements.txt
+Also you will need a capstone libs installed.
 After that you can try roper with: ./armroper.py -h
 
 ## Usage
