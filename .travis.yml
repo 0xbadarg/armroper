@@ -3,6 +3,10 @@ python:
   - "3.4"
   - "3.5"
 
+# before install
+before_install:
+  - apt-get install libcapstone-dev
+
 # command to install dependencies
 install: 
   - pip3 install -r requirements.txt 
