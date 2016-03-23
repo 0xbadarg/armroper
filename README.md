@@ -31,7 +31,7 @@ optional arguments:
 
 ## Credits
 
-All the credits goes to the https://github.com/hitmoon/MyRop, and  Jonathan Salwan from the shell-storm.org
+All the credits goes to the MyRop, and  Jonathan Salwan from the shell-storm.org
 
 ## License
 
